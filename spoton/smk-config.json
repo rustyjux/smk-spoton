@@ -1,0 +1,137 @@
+{
+    "name": "spoton",
+    "viewer": {
+        "type": "leaflet",
+        "location": {
+            "center": [
+                -124.74975585937501,
+                51.876490970614775
+            ],
+            "extent": [
+                -131.92382812500003,
+                46.42271253466719,
+                -117.57568359375,
+                56.74067435475299
+            ],
+            "zoom": 6
+        },
+        "esriApiKey": "",
+        "baseMap": "StamenTonerLight",
+        "device": "mobile"
+    },
+    "layers": [],
+    "tools": [
+        {
+            "type": "toolbar",
+            "enabled": true
+        },
+        {
+            "type": "list-menu",
+            "enabled": true,
+            "title": "SpotOnBC"
+        },
+        {
+            "type": "shortcut-menu",
+            "enabled": true
+        },
+        {
+            "type": "pan",
+            "enabled": true
+        },
+        {
+            "type": "zoom",
+            "enabled": true,
+            "control": false
+        },
+        {
+            "type": "about",
+            "enabled": true,
+            "title": "About SpotOnBC",
+            "position": "list-menu",
+            "content": "<p>Welcome to SMK!</p><p>Get accurate address locations for navigation.</p>"
+        },
+        {
+            "type": "layers",
+            "enabled": true,
+            "position": "shortcut-menu"
+        },
+        {
+            "type": "baseMaps",
+            "enabled": false,
+            "position": "list-menu"
+        },
+        {
+            "type": "identify",
+            "enabled": true,
+            "position": "list-menu",
+            "showPanel": true,
+            "showWidget": true,
+            "style": {
+                "strokeWidth": 1,
+                "strokeStyle": "1, 1",
+                "strokeColor": "#000000",
+                "strokeOpacity": 0.8,
+                "fillColor": "#000000",
+                "fillOpacity": 0.5,
+                "markerSize": [
+                    20,
+                    20
+                ],
+                "markerOffset": [
+                    10,
+                    0
+                ]
+            }
+        },
+        {
+            "type": "search",
+            "enabled": true
+        },
+        {
+            "type": "coordinate",
+            "enabled": false
+        },
+        {
+            "type": "measure",
+            "enabled": false,
+            "position": "list-menu"
+        },
+        {
+            "type": "markup",
+            "enabled": false
+        },
+        {
+            "type": "scale",
+            "enabled": true
+        },
+        {
+            "type": "minimap",
+            "enabled": false
+        },
+        {
+            "type": "directions",
+            "enabled": true,
+            "position": "shortcut-menu"
+        },
+        {
+            "type": "location",
+            "enabled": true
+        },
+        {
+            "type": "select",
+            "enabled": false,
+            "position": "list-menu"
+        },
+        {
+            "type": "geomark",
+            "geomarkService": {
+                "url": "https://apps.gov.bc.ca/pub/geomark"
+            },
+            "position": "list-menu",
+            "enabled": false
+        }
+    ],
+    "version": "1.1.12",
+    "createdBy": "Russell Vinegar",
+    "createdDate": "2023-07-18T19:30:33.534Z"
+}
